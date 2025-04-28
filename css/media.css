@@ -282,7 +282,13 @@
     }
     .project-lst li {
         width: 95%;
+        height: 25rem;
     }
+    .gifbox {
+        width: 20rem;
+        height: 15rem;
+    }
+
     .work-project a img {
         width: 100%;
         height: auto;
@@ -464,6 +470,48 @@
     }
     #s2 .interview-content .content span {
         font-size: 1.5rem;
+    }
+    .card-back {
+        padding: 1rem;
+    }
+    #s4 .project-lst-text2 {
+        flex-wrap: wrap;
+        flex-direction: unset;
+        align-items: unset;
+        gap: 1rem;
+    }
+    .project-lst-text h1 {
+        font-size: 1.8rem;
+    }
+    .project-lst-text p {
+        font-size: 1.3rem;
+    }
+    #s4 .project-lst-text2 h1 {
+        font-size: 1.8rem;
+        width: 100%;
+    }
+    .project-lst li {
+        height: 17rem;
+    }
+    .gifbox {
+        width: calc(70% - 2rem);
+        height: 11rem;
+    }
+    #s4 .subicon-wrap {
+        width: calc(25%);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1rem;
+        gap: .5rem;
+    }
+    #s4 .project-lst-text2 .sub-link-icon img {
+
+    }
+    #s4 .project-lst-text2 .sub-tag-box span {
+        width: 2.7rem;
+        height: 2.7rem;
+        font-size: .8rem;
     }
 
 }
