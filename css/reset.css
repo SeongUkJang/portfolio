@@ -12,6 +12,11 @@ html {
     scroll-behavior: smooth;
 }
 
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    }
+
 /* 기본 커서 스타일 */
 .cursor {
     position: fixed;
