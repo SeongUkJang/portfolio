@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seong-Uk Jang portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/portfoliofavicon1.svg" type="image/x-icon">
+    <meta name="description" content="Seong-Uk Jang portfolio">
+    <meta name="keywords" content="HTML, CSS, JavaScript, JQuery, Gsap, Swiper, React, TypeScript, SASS, AOS">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Seong-Uk Jang portfolio">
+    <meta property="og:description" content="Seong-Uk Jang portfolio">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta name="author" content="Seong-Uk Jang">
+    <meta name="copyright" content="Copyright 2025. Seong-Uk Jang All rights reserved.">
+    <!-- <meta http-equiv="refresh" content="5; url=https://example.com"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  </head>
+</head>
+
+<body>
+  <aside>
+    <ul>
+      <li class="link"><span>{</span><span>intro</span><span>}</span></li>
+      <li class="link"><span>{</span><span>profile</span><span>}</span></li>
+      <li class="link"><span>{</span><span>interview</span><span>}</span></li>
+      <li class="link"><span>{</span><span>mainwork</span><span>}</span></li>
+      <li class="link"><span>{</span><span>subwork</span><span>}</span></li>
+      <li class="link"><span>{</span><span>contect</span><span>}</span></li>
+    </ul>
+  </aside>
+  <div id="wrap">
+    <section id="s0">
+        <div class="rel">
+          <header>
+            <h1>
+              <a href="#">
+                <svg viewBox="0 0 201 136" preserveAspectRatio="xMidYMid meet" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path xmlns="http://www.w3.org/2000/svg" d="M30.0536 83.2553C56.4254 61.5073 82.122 38.6297 110.372 18.8423C110.838 18.5164 110.467 19.2089 110.387 19.4397C109.113 23.1532 107.088 26.8398 105.275 30.3692C97.5925 45.3238 89.6646 60.3127 81.0325 74.9781M81.0325 74.9781C78.1728 79.8366 75.2358 84.6596 72.2048 89.4341M81.0325 74.9781C59.2184 87.3183 35.7212 98.171 11.7713 106.134C8.38561 107.259 -1.97102 110.001 1.49356 109.141C4.1198 108.489 6.74129 107.818 9.36547 107.158C29.8677 102.002 50.3025 96.6256 70.5831 90.6957M81.0325 74.9781C82.5616 74.1131 84.0824 73.2408 85.5945 72.3617C100.726 63.5645 116.032 53.5591 128.429 41.4614M72.2048 89.4341C72.0001 89.7566 71.7949 90.079 71.5892 90.4011M72.2048 89.4341C71.6626 89.853 71.122 90.2736 70.5831 90.6957M72.2048 89.4341C81.1373 82.5323 90.508 76.0507 99.6717 69.476C101.721 68.006 107.627 62.3342 110.781 62.0042C112.404 61.8345 111.297 66.4751 111.201 67.0832C111.034 68.1368 110.502 70.3574 112.564 70.0099C114.549 69.6756 117.874 68.2197 119.368 67.5539C122.894 65.9818 126.37 64.3126 129.833 62.6178M71.5892 90.4011C68.3267 95.5117 64.9549 100.566 61.4533 105.547C54.4194 115.553 46.4136 124.735 37.5012 133.49C33.4888 137.431 34.6801 133.769 35.7996 130.653C39.2637 121.012 46.492 112.302 54.1987 104.831C59.3473 99.8409 64.8662 95.1747 70.5831 90.6957M71.5892 90.4011C79.0685 88.2069 86.5267 85.9366 93.9593 83.5734C106.548 79.5708 119.392 75.5163 131.875 70.747M71.5892 90.4011C71.2539 90.4994 70.9185 90.5977 70.5831 90.6957M129.833 62.6178C134.555 60.3075 139.251 57.9498 144.016 55.7264C150.665 52.6238 153.816 51.2494 160.352 48.5636C162.045 47.8677 163.752 47.1991 165.457 46.5308C166.611 46.0788 167.914 44.7617 168.961 45.2757C169.645 45.6119 167.991 46.4775 167.484 47.0641C166.181 48.572 164.686 50.1068 163.762 51.8283C163.275 52.7345 163.424 53.5348 164.34 53.9842L164.351 53.9898C164.53 54.0777 164.732 54.1767 164.534 54.4387C162.716 56.8372 158.32 58.9664 155.9 60.2024C148.165 64.1537 140.098 67.6054 131.875 70.747M129.833 62.6178C128.647 55.8176 128.103 48.6332 128.429 41.4614M129.833 62.6178C129.867 62.813 129.902 63.0078 129.937 63.2024C130.372 65.6104 130.984 68.2062 131.875 70.747M131.875 70.747C134.215 77.42 138.477 83.7137 146.488 85.2305C153.346 86.529 160.081 82.1574 164.48 77.6241C164.496 77.6077 164.512 77.591 164.528 77.5742M128.429 41.4614C131.637 38.3306 134.65 35.0597 137.415 31.6334C143.603 23.9657 148.188 14.5626 148.144 5.30267C148.139 4.11762 148.597 0.602166 146.223 2.05073C138.261 6.9085 133.543 15.5605 131.279 23.4649C129.609 29.2927 128.706 35.3725 128.429 41.4614ZM164.528 77.5742C166.929 75.0762 172.641 67.3976 169.635 69.1522C167.281 70.5263 165.559 74.126 164.528 77.5742ZM164.528 77.5742C163.834 79.8973 163.453 82.1516 163.404 83.6103C163.228 88.8294 168.082 88.5706 172.57 87.675C182.171 85.7591 190.609 81.8466 199.398 77.7642" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </a>
+          </h1>
+            <ul class="nav-list">
+              <li><a href="#s1">profile</a></li>
+              <li><a href="#s2">interview</a></li>
+              <li><a href="#s3">work</a></li>
+              <li><a href="#s5">contact</a></li>
+            </ul>
+            <span class="time"></span>
+          </header>
+          <div class="intro">
+            <div class="intro-wrap">
+              <span class="intro1-1">{</span>
+                <div class="intro2">
+                  <span>p</span>
+                  <span>o</span>
+                  <span>r</span>
+                  <span>t</span>
+                </div>
+                <span class="redbar"></span>
+                <div class="intro3">
+                  <span>f</span>
+                  <span>o</span>
+                  <span>l</span>
+                  <span>i</span>
+                  <span>o</span>
+                </div>
+                <span class="intro4">seong-uk jang</span>
+                <span class="intro1-2">}</span>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="s1">
+      <div class="rel">
+        <div class="profile-wrap">
+          <div class="profile-title">
+            <span class="profilepic"><img src="./img/profile1.png" alt="pic"></span>
+            <div class="profile-txt">
+              <span>{</span><h1>profile</h1><span>}</span>
+            </div>
+            <ul class="profile-hashtag">
+              <li>#장성욱</li>
+              <li>#남자</li>
+              <li>#1994.03.21</li>
+              <li>#목포</li>
+              <li>#서울중랑구상봉동</li>
+              <li>#축구</li>
+              <li>#헬스</li>
+              <li>#게임</li>
+            </ul>
+          </div>
+          <div class="profile-info">
+            <dl class="profile-1">
+              <dt>education</dt>
+                <dd>ㆍ삼호서초등학교 졸업</dd>
+                <dd>ㆍ삼호서중학교 졸업</dd>
+                <dd>ㆍ영흥고등학교 졸업</dd>
+                <dd>ㆍ세한대학교 물리치료학과 졸업</dd>
+                <dd>ㆍ대우능력개발원 생성형AI 프론트엔드 개발자 교육 수료</dd>
+              </dl>
+            <dl class="profile-2">
+              <dt>license</dt>
+                <dd>ㆍ물리치료사 국가면허</dd>
+                <dd>ㆍ운전 면허 1종 보통</dd>
+                <dd>ㆍ워드프로세서 2급</dd>
+            </dl>
+            <dl class="profile-3">
+              <dt>experience</dt>
+                <dd>ㆍ2019 ~ 2024 리봄한방병원 물리치료 팀장</dd>
+                <dd>ㆍ2024 ~ 2024.11 휴고든정형외과 실장</dd>
+            </dl>
+            <dl class="profile-4">
+              <dt>skill</dt>
+              <div class="profile-4-list">
+                <dd>html</dd>
+                <dd>css</dd>
+                <dd>javascript</dd>
+                <dd>jquery</dd>
+                <dd>react</dd>
+                <dd>gsap</dd>
+                <dd>swiper</dd>
+                <dd>sass</dd>
+                <dd>aos</dd>
+                <dd>typeScript</dd>
+                <dd>photoshop</dd>
+              </div>
+            </dl>
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section>
+    <section id="s2">
+      <div class="rel">
+        <div class="interview-wrap">
+          <div class="interview-title">
+            <p>
+              <strong class="interview-title-1">효율</strong>과
+              <strong class="interview-title-2">편의성</strong>을 중요시하는<br>
+              프론트엔드 개발자 <strong class="interview-title-3">장성욱</strong>입니다
+            </p>
+          </div>
+        <div class="interview-txt">
+            <span>{</span><h1>interview</h1><span>}</span>
+        </div>
+        <div class="interview-content-wrap">
+          <ul class="interview-content">
+            <li>
+              <h3 class="con-tit ">
+                Q . 프론트엔드 개발자를 꿈꾸게 된 계기? <span>→</span>
+            </h3>
+            <p class="content ">
+              <span>저에게서 프론트엔드 개발자를 꿈꾸게 된 가장 큰 이유는 <strong>‘즐거움’</strong>이었습니다. </span> <br>
+              주변 일상에서 보여지는 것들이 이 직종과 관련이 깊다는걸 깨닫고
+              프론트엔드 개발자라는 직업에 관심을 가지게 되었으며, <br>
+              무언가를 만들어내고 그것을 두 눈으로 볼 수 있게 구현해내는 부분이 
+              저에게 굉장히 매력적으로 다가와 늦게나마 배움을 시작하였습니다. <br> 
+              저에게는 큰 용기가 필요한 새로운 도전이었습니다. <br> 처음엔 접해보지 못한 것들에 이해가 어려워 어려움도 많았지만 즐거웠습니다. <br>
+              점점 배우면 배울수록 흥미로웠고 무엇보다 재미가 있었습니다.  <br>저에게서 프론트엔드개발자를 꿈꾸게된 가장 큰 이유는 ‘즐거움’이었습니다. </p>
+            
+          </li>
+            <li>
+              <h3 class="con-tit ">
+                Q . 본인만의 장점? <span>→</span>
+            </h3>
+            <p class="content">
+              <span>효율과 편의성을 추구하며 <strong>‘뚝심과 근성’</strong>을 기반으로 한 임무 수행능력입니다.</span><br>
+              맡은 바를 최선을 다해 수행하며, 목표 달성을 위해 끊임없이 노력합니다. <br> 효율성과 편의성을 중요하게 생각하며, 이를 바탕으로 빠르고 정확한 문제 해결을 위한 방향성을 제시하고 목표에 도달하기 위해 최선을 다합니다. <br> 문제를 해결하고 나면 느끼는 성취감은 제게 큰 도파민이 됩니다. <br>
+              건설적인 의견 교환을 좋아하고, 상대방의 의견을 존중하며 경청하려 노력합니다. <br> 이를 통해 배우는 자세로 임하고, 진지한 마음가짐으로 협업에 기여하고자 합니다.
+
+            </p>
+          </li>
+            <li>
+              <h3 class="con-tit ">
+                Q . 앞으로의 포부 <span>→</span>
+            </h3>
+            <p class="content">
+              <span><strong>'뚝심과 근성'</strong>을 바탕으로 점점 성장하는 모습 보여드리겠습니다.</span><br>
+              늦은 나이에 개발자의 길을 걷게 되었지만, 그만큼 배로 노력하여 성실히 한 단계씩 나아가겠습니다.
+              <br>
+              오늘보다 나은 내일을 위하여
+            </p>
+          </li>
+        </ul>
+        </div>
+      </div>
+      
+    </section>
+    <div class="workbg">
+      <section id="s3">
+        <div class="rel">
+          <div class="tit-wrap">
+            <div class="tit-title">what i made</div>
+            <div class="tit-title2">
+              <span>{</span><h1>work</h1><span>}</span>
+            </div>
+            <h2 class="mid-tit">main project</h2>
+          </div>
+          <ul class="work-list">
+            <li >
+              <div class="flex">
+                <div class="left">
+                  <h4 class="work-tit">Naver AI Rush</h4>
+                  <div class="link-box">
+                    <span class="link">#Html</span>
+                    <span class="link">#CSS</span>
+                    <span class="link">#JSS</span>
+                    <span class="link">#Jquery</span>
+                    <span class="link">#GSAP</span>
+                  </div>
+                </div>
+                <div class="right">
+                  
+                  <div class="tag-box">
+                    <span class="tag">html</span>
+                    <span class="tag">css</span>
+                    <span class="tag">jss</span>
+                    <span class="tag">jquery</span>
+                    <span class="tag">gsap</span>
+                    <span class="tag">swiper</span>
+                    <span class="tag">aos</span>
+                  </div>
+                </div>
+              </div>
+              <div class="work-content">
+                <div class="work-content-wrap">
+                  <div class="work-text-wrap">
+                    <h1>project</h1>
+                    <h4>Naver AI Rush - Clone Coding</h4>
+                    <p>Clone Coding으로 Naver AI Rush를 구현해보았습니다.</p>
+                    <div class="link-icon">
+                      <a href="https://www.notion.so/Project-Naver-Ai-Rush-1c77268828ce80608ec8dae405b34b15" target="_blank" class="nortion"><img src="./img/notionicon.svg" alt="icon"></a>
+                      <a href="https://www.figma.com/design/uzG6theWbcu1mOb37mUsdS/Naver-Ai-Rush?node-id=0-1&p=f&t=xpPWQo5MBwqbjZZW-0" target="_blank" class="figma"><img src="./img/figmaicon.svg" alt="icon"></a>
+                    <a href="https://github.com/SeongUkJang/project-naverairush" target="_blank" class="github"><img src="./img/githubicon.svg" alt="icon"></a>
+                  </div>
+                  <div class="work-skill">
+                    <span>html</span>
+                    <span>css</span>
+                    <span>javascript</span>
+                    <span>jquery</span>
+                    <span>gsap</span>
+                    <span>swiper</span>
+                    <span>aos</span>
+                  </div>
+                </div>
+                <div class="work-project">
+                  <a href="https://seongukjang.github.io/project-naverairush/" target="_blank"><img src="./img/naverairushmockup.PNG" alt="mokup"></a>
+                </div>
+                
+              </div>
+            </div>
+            </li>
+            <li >
+              <div class="flex">
+                <div class="left">
+                  <h4 class="work-tit">Emotion Diary</h4>
+                  <div class="link-box">
+                    <span class="link">#react</span>
+                    <span class="link">#html</span>
+                    <span class="link">#css</span>
+                  </div>
+                </div>
+                <div class="right">
+                  
+                  <div class="tag-box">
+                    <span class="tag">html</span>
+                    <span class="tag">css</span>
+                    <span class="tag">jss</span>
+                    <span class="tag">react</span>
+                  </div>
+                </div>
+              </div>
+              <div class="work-content">
+                <div class="work-content-wrap">
+                  <div class="work-text-wrap">
+                    <h1>project</h1>
+                    <h4>Emotion Diary - 감정 일기장</h4>
+                    <p>REACT로 감정 일기장을 구현해보았습니다.</p>
+                    <div class="link-icon">
+                      <a href="https://www.notion.so/emotion-diary-1ca7268828ce80239c4fe2f450eb090e" target="_blank" class="nortion"><img src="./img/notionicon.svg" alt="icon"></a>
+                    <a href="https://github.com/SeongUkJang/react-emotion-diary/tree/main" target="_blank" class="github"><img src="./img/githubicon.svg" alt="icon"></a>
+                  </div>
+                  <div class="work-skill">
+                    <span>html</span>
+                    <span>css</span>
+                    <span>javascript</span>
+                    <span>react</span>
+                  </div>
+                </div>
+                <div class="work-project">
+                  <a href="https://seongukjang.github.io/react-emotion-diary/" target="_blank"><img src="./img/mockup4.PNG" alt="mokup"></a>
+                </div>
+                
+              </div>
+            </div>
+            </li>
+            <li >
+              <div class="flex">
+                <div class="left">
+                  <h4 class="work-tit">망우역사문화공원</h4>
+                  <div class="link-box">
+                    <span class="link">#반응형</span>
+                    <span class="link">#GSAP</span>
+                    <span class="link">#SWIPER</span>
+                  </div>
+                </div>
+                <div class="right">
+                  
+                  <div class="tag-box">
+                    <span class="tag">html</span>
+                    <span class="tag">css</span>
+                    <span class="tag">jss</span>
+                    <span class="tag">jquery</span>
+                    <span class="tag">gsap</span>
+                  </div>
+                </div>
+              </div>
+              <div class="work-content">
+                <div class="work-content-wrap">
+                  <div class="work-text-wrap">
+                    <h1>solo project</h1>
+                    <h4>망우역사문화공원 Clone Coding</h4>
+                    <p>망우역사문화공원을 Clone Coding하여 구현하였습니다.</p>
+                    <div class="link-icon">
+                      <a href="https://www.notion.so/Project-1b47268828ce80d0b333d685ffb91efe" target="_blank" class="nortion"><img src="./img/notionicon.svg" alt="icon"></a>
+                    <a href="https://www.figma.com/design/lcO8OaQqJ1LAXG59gYVf79/Untitled?node-id=0-1&t=B3CecKp2UKcFS7Xl-1" target="_blank" class="figma"><img src="./img/figmaicon.svg" alt="icon"></a>
+                    <a href="https://github.com/SeongUkJang/project-mang-u-history-culture-park" target="_blank" class="github"><img src="./img/githubicon.svg" alt="icon"></a>
+                  </div>
+                  <div class="work-skill">
+                    <span>html</span>
+                    <span>css</span>
+                    <span>javascript</span>
+                    <span>jquery</span>
+                    <span>gsap</span>
+                    <span>swiper</span>
+                    <span>aos</span>
+                    <span>photoshop</span>
+                  </div>
+                </div>
+                <div class="work-project">
+                  <a href="https://seongukjang.github.io/project-mang-u-history-culture-park/" target="_blank"><img src="./img/mokup1.png" alt="mokup"></a>
+                </div>
+                
+              </div>
+            </div>
+            </li>
+            <li >
+              <div class="flex">
+                <div class="left">
+                  <h4 class="work-tit">Food Festival</h4>
+                  <div class="link-box">
+                    <span class="link">#반응형</span>
+                    <span class="link">#GSAP</span>
+                    <span class="link">#SWIPER</span>
+                    <span class="link">#AOS</span>
+                  </div>
+                </div>
+                <div class="right">
+                  
+                  <div class="tag-box">
+                    <span class="tag">html</span>
+                    <span class="tag">css</span>
+                    <span class="tag">jss</span>
+                    <span class="tag">jquery</span>
+                    <span class="tag">gsap</span>
+                    <span class="tag">aos</span>
+                  </div>
+                </div>
+              </div>
+              <div class="work-content">
+                <div class="work-content-wrap">
+                  <div class="work-text-wrap">
+                    <h1>Team project</h1>
+                    <h4>Food Festival</h4>
+                    <p>팀 프로젝트로 세계음식축제를 주제로 반응형 웹을 구현하였습니다.</p>
+                    <div class="link-icon">
+                      <a href="https://www.notion.so/Teamproject-Food-Festival-1a67268828ce8011bdc1e585d81f8602" target="_blank" class="nortion"><img src="./img/notionicon.svg" alt="icon"></a>
+                    <a href="https://www.figma.com/design/a6q3KQtE0OEglKNBYIytSL/2025.02.03-%EC%BD%94%EB%94%A9%ED%95%B4%EC%BB%A4%ED%86%A4-B%ED%8C%80?node-id=281-1272&p=f&t=6L3o7lkrOyjw2FvI-0" target="_blank" class="figma"><img src="./img/figmaicon.svg" alt="icon"></a>
+                    <a href="https://github.com/SeongUkJang/Teamproject---Food-Festival" target="_blank" class="github"><img src="./img/githubicon.svg" alt="icon"></a>
+                  </div>
+                  <div class="work-skill">
+                    <span>html</span>
+                    <span>css</span>
+                    <span>javascript</span>
+                    <span>jquery</span>
+                    <span>gsap</span>
+                    <span>swiper</span>
+                    <span>aos</span>
+                    <span>photoshop</span>
+                  </div>
+                </div>
+                <div class="work-project">
+                  <a href="https://seongukjang.github.io/Teamproject---Food-Festival/" target="_blank"><img src="./img/mokup2.png" alt="mokup"></a>
+                </div>
+                
+              </div>
+            </div>
+            </li>
+            <li >
+              <div class="flex">
+                <div class="left">
+                  <h4 class="work-tit">RWD Template</h4>
+                  <div class="link-box">
+                    <span class="link">#반응형</span>
+                    <span class="link">#GSAP</span>
+                    <span class="link">#SWIPER</span>
+                    <span class="link">#AOS</span>
+                  </div>
+                </div>
+                <div class="right">
+                  
+                  <div class="tag-box">
+                    <span class="tag">html</span>
+                    <span class="tag">css</span>
+                    <span class="tag">jss</span>
+                    <span class="tag">gsap</span>
+                    <span class="tag">aos</span>
+                  </div>
+                </div>
+              </div>
+              <div class="work-content">
+                <div class="work-content-wrap">
+                  <div class="work-text-wrap">
+                    <h1>solo project</h1>
+                    <h4>RWD Template</h4>
+                    <p>반응형 웹을 디자인하여 구현하였습니다.</p>
+                    <div class="link-icon">
+                      <a href="https://www.notion.so/JSS-rwd-template-1a87268828ce800ba7aac480e4558aa2" target="_blank" class="nortion"><img src="./img/notionicon.svg" alt="icon"></a>
+                    <a href="https://www.figma.com/design/eVGXaxC39pPgww0DEwJNyu/RWD-template?t=6c4bqZFrop0x8buH-1" target="_blank" class="figma"><img src="./img/figmaicon.svg" alt="icon"></a>
+                    <a href="https://github.com/SeongUkJang/rwd-template/tree/final" target="_blank" class="github"><img src="./img/githubicon.svg" alt="icon"></a>
+                  </div>
+                  <div class="work-skill">
+                    <span>html</span>
+                    <span>css</span>
+                    <span>javascript</span>
+                    <span>gsap</span>
+                    <span>swiper</span>
+                    <span>aos</span>
+                    <span>photoshop</span>
+                  </div>
+                </div>
+                <div class="work-project">
+                  <a href="https://seongukjang.github.io/rwd-template/" target="_blank"><img src="./img/mokup3.JPG" alt="mokup"></a>
+                </div>
+                
+              </div>
+            </div>
+            </li>
+        </ul>
+      </div>
+    </section>
+    <section id="s4">
+      <div class="rel">
+        <div class="tit-wrap">
+          <h1>SubProject</h1>
+        </div>
+        <div class="subprojectwrap">
+        <ul class="project-lst">
+          <li>
+            <div class="card">
+              <div class="card-front">
+                <div class="project-lst-text">
+                  <h1>tss+react Todolist</h1>
+                  <span></span>
+                  <p>#typescript #react #css</p>
+                </div>
+              </div>
+              <div class="card-back">
+                <div class="gifbox">
+                  <a href="https://seongukjang.github.io/typescript-todolist/" target="_blank">
+                    <img class="gif" src="./img/typescript-todolist.gif" alt="gif">
+                  </a>
+                </div>
+                <div class="project-lst-text2">
+                  <h1>tss Todolist</h1>
+                  <div class="sub-link-icon">
+                    <a href="https://www.notion.so/Typescript-todolist-1de7268828ce8054b76dc26c31480c7c" target="_blank"><img src="./img/notionicon.svg" alt="icon"></a>
+                    <a href="https://github.com/SeongUkJang/typescript-todolist" target="_blank"><img src="./img/githubicon.svg" alt="icon"></a>
+                  </div>
+                  <div class="sub-tag-box">
+                    <span class="tag">tss</span>
+                    <span class="tag">react</span>
+                    <span class="tag">css</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card-front">
+                <div class="project-lst-text">
+                  <h1>emotion diary</h1>
+                  <span></span>
+                  <p>#react #javascript #css</p>
+                </div>
+              </div>
+              <div class="card-back">
+                <div class="gifbox">
+                  <a href="https://seongukjang.github.io/react-emotion-diary/" target="_blank">
+                    <img class="gif" src="./img/react-emotiondiary.gif" alt="gif">
+                  </a>
+                </div>
+                <div class="project-lst-text2">
+                  <h1>emotion diary</h1>
+                  <div class="sub-link-icon">
+                    <a href="https://www.notion.so/emotion-diary-1ca7268828ce80239c4fe2f450eb090e" target="_blank"><img src="./img/notionicon.svg" alt="icon"></a>
+                    <a href="https://github.com/SeongUkJang/react-emotion-diary" target="_blank"><img src="./img/githubicon.svg" alt="icon"></a>
+                  </div>
+                  <div class="sub-tag-box">
+                    <span class="tag">react</span>
+                    <span class="tag">jss</span>
+                    <span class="tag">css</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card-front">
+                <div class="project-lst-text">
+                  <h1>weather app</h1>
+                  <span></span>
+                  <p>#react #javascript #css</p>
+                </div>
+              </div>
+              <div class="card-back">
+                <div class="gifbox">
+                  <a href="https://seongukjang.github.io/react-weather-app/" target="_blank">
+                    <img class="gif" src="./img/react-weather.gif" alt="gif">
+                  </a>
+                </div>
+                <div class="project-lst-text2">
+                  <h1>weather app</h1>
+                  <div class="sub-link-icon">
+                    <a href="https://www.notion.so/weather-app-1cb7268828ce80bd94e3ee061cb4ea8b" target="_blank"><img src="./img/notionicon.svg" alt="icon"></a>
+                    <a href="https://github.com/SeongUkJang/react-weather-app" target="_blank"><img src="./img/githubicon.svg" alt="icon"></a>
+                  </div>
+                  <div class="sub-tag-box">
+                    <span class="tag">react</span>
+                    <span class="tag">jss</span>
+                    <span class="tag">css</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card-front">
+                <div class="project-lst-text">
+                  <h1>swiper aos</h1>
+                  <span></span>
+                  <p>#react #javascript #scss</p>
+                </div>
+              </div>
+              <div class="card-back">
+                <div class="gifbox">
+                  <a href="https://seongukjang.github.io/react-swiper-aos/" target="_blank">
+                    <img class="gif" src="./img/react-swiperaos.gif" alt="gif">
+                  </a>
+                </div>
+                <div class="project-lst-text2">
+                  <h1>swiper aos</h1>
+                  <div class="sub-link-icon">
+                    <a href="https://www.notion.so/swiper-aos-1c47268828ce8001a4e4cb28ccfce88d" target="_blank"><img src="./img/notionicon.svg" alt="icon"></a>
+                    <a href="https://github.com/SeongUkJang/react-swiper-aos" target="_blank"><img src="./img/githubicon.svg" alt="icon"></a>
+                  </div>
+                  <div class="sub-tag-box">
+                    <span class="tag">react</span>
+                    <span class="tag">jss</span>
+                    <span class="tag">scss</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card-front">
+                <div class="project-lst-text">
+                  <h1>to do list</h1>
+                  <span></span>
+                  <p>#react #javascript #css</p>
+                </div>
+              </div>
+              <div class="card-back">
+                <div class="gifbox">
+                  <a href="https://seongukjang.github.io/react-todo/" target="_blank">
+                    <img class="gif" src="./img/react-todo.gif" alt="gif">
+                  </a>
+                </div>
+                <div class="project-lst-text2">
+                  <h1>to do list</h1>
+                  <div class="sub-link-icon">
+                    <a href="https://www.notion.so/to-do-1c27268828ce80bca9a8d78a86b0360b" target="_blank"><img src="./img/notionicon.svg" alt="icon"></a>
+                    <a href="https://github.com/SeongUkJang/react-todo" target="_blank"><img src="./img/githubicon.svg" alt="icon"></a>
+                  </div>
+                  <div class="sub-tag-box">
+                    <span class="tag">react</span>
+                    <span class="tag">jss</span>
+                    <span class="tag">css</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card-front">
+                <div class="project-lst-text">
+                  <h1>timer</h1>
+                  <span></span>
+                  <p>#react #javascript #css</p>
+                </div>
+              </div>
+              <div class="card-back">
+                <div class="gifbox">
+                  <a href="https://seongukjang.github.io/react-timer/" target="_blank">
+                    <img class="gif" src="./img/react-timer.gif" alt="gif">
+                  </a>
+                </div>
+                <div class="project-lst-text2">
+                  <h1>timer</h1>
+                  <div class="sub-link-icon">
+                    <a href="https://www.notion.so/Timer-1c17268828ce80cea6f8f2416b15b23b" target="_blank"><img src="./img/notionicon.svg" alt="icon"></a>
+                    <a href="https://github.com/SeongUkJang/react-timer" target="_blank"><img src="./img/githubicon.svg" alt="icon"></a>
+                  </div>
+                  <div class="sub-tag-box">
+                    <span class="tag">react</span>
+                    <span class="tag">jss</span>
+                    <span class="tag">css</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card-front">
+                <div class="project-lst-text">
+                  <h1>r.s.p game</h1>
+                  <span></span>
+                  <p>#react #javascript #scss</p>
+                </div>
+              </div>
+              <div class="card-back">
+                <div class="gifbox">
+                  <a href="https://github.com/SeongUkJang/react-game" target="_blank">
+                    <img class="gif" src="./img/react-rock scissors paper.gif" alt="gif">
+                  </a>
+                </div>
+                <div class="project-lst-text2">
+                  <h1>👉✊🖐</h1>
+                  <div class="sub-link-icon">
+                    <a href="https://www.notion.so/1bd7268828ce806dae9be27d05514704" target="_blank"><img src="./img/notionicon.svg" alt="icon"></a>
+                    <a href="https://github.com/SeongUkJang/react-endwordgame" target="_blank"><img src="./img/githubicon.svg" alt="icon"></a>
+                  </div>
+                  <div class="sub-tag-box">
+                    <span class="tag">react</span>
+                    <span class="tag">jss</span>
+                    <span class="tag">scss</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card-front">
+                <div class="project-lst-text">
+                  <h1>calculator</h1>
+                  <span></span>
+                  <p>#react #javascript #scss</p>
+                </div>
+              </div>
+              <div class="card-back">
+                <div class="gifbox">
+                  <a href="https://seongukjang.github.io/react-calculator/" target="_blank">
+                    <img class="gif" src="./img/react-calculator.gif" alt="gif">
+                  </a>
+                </div>
+                <div class="project-lst-text2">
+                  <h1>calculator</h1>
+                  <div class="sub-link-icon">
+                    <a href="https://www.notion.so/calculator-1ba7268828ce807c89cce8d6bb3649fd" target="_blank"><img src="./img/notionicon.svg" alt="icon"></a>
+                    <a href="https://github.com/SeongUkJang/react-endwordgame" target="_blank"><img src="./img/githubicon.svg" alt="icon"></a>
+                  </div>
+                  <div class="sub-tag-box">
+                    <span class="tag">react</span>
+                    <span class="tag">jss</span>
+                    <span class="tag">scss</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card-front">
+                <div class="project-lst-text">
+                  <h1>endword game</h1>
+                  <span></span>
+                  <p>#react #javascript #scss</p>
+                </div>
+              </div>
+              <div class="card-back">
+                <div class="gifbox">
+                  <a href="https://seongukjang.github.io/react-endwordgame/" target="_blank">
+                    <img class="gif" src="./img/react-wordgame.gif" alt="gif">
+                  </a>
+                </div>
+                <div class="project-lst-text2">
+                  <h1>endword game</h1>
+                  <div class="sub-link-icon">
+                    <a href="https://www.notion.so/1b67268828ce81958512cde8cf2384c8" target="_blank"><img src="./img/notionicon.svg" alt="icon"></a>
+                    <a href="https://github.com/SeongUkJang/react-endwordgame" target="_blank"><img src="./img/githubicon.svg" alt="icon"></a>
+                  </div>
+                  <div class="sub-tag-box">
+                    <span class="tag">react</span>
+                    <span class="tag">jss</span>
+                    <span class="tag">scss</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card-front">
+                <div class="project-lst-text">
+                  <h1>counter</h1>
+                  <span></span>
+                  <p>#react #javascript #css</p>
+                </div>
+              </div>
+              <div class="card-back">
+                <div class="gifbox">
+                  <a href="https://seongukjang.github.io/react-counter/" target="_blank">
+                    <img class="gif" src="./img/react-counter.gif" alt="gif">
+                  </a>
+                </div>
+                <div class="project-lst-text2">
+                  <h1>counter</h1>
+                  <div class="sub-link-icon">
+                    <a href="https://www.notion.so/Counter-1c07268828ce8094a10dedf4924bad3c" target="_blank"><img src="./img/notionicon.svg" alt="icon"></a>
+                    <a href="https://github.com/SeongUkJang/react-counter" target="_blank"><img src="./img/githubicon.svg" alt="icon"></a>
+                  </div>
+                  <div class="sub-tag-box">
+                    <span class="tag">react</span>
+                    <span class="tag">jss</span>
+                    <span class="tag">css</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card-front">
+                <div class="project-lst-text">
+                  <h1>tap menu</h1>
+                  <span></span>
+                  <p>#html #css #javascript</p>
+                </div>
+              </div>
+              <div class="card-back">
+                <div class="gifbox">
+                  <img class="gif" src="./img/tapmenu.gif" alt="gif">
+                </div>
+                <div class="project-lst-text2">
+                  <h1>tap menu</h1>
+                  <div class="sub-link-icon">
+                    <a href="https://www.notion.so/code-reboot-1ac7268828ce803bbf60fb07026c30a1?p=1977268828ce8066b897c64feaa4a1fc&pm=s" target="_blank"><img src="./img/notionicon.svg" alt="icon"></a>
+                    <a href="https://github.com/SeongUkJang/code-reboot/tree/tap-%EB%A9%94%EB%89%B4-%EB%A7%8C%EB%93%A4%EA%B8%B0" target="_blank"><img src="./img/githubicon.svg" alt="icon"></a>
+                  </div>
+                  <div class="sub-tag-box">
+                    <span class="tag">html</span>
+                    <span class="tag">css</span>
+                    <span class="tag">jss</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card-front">
+                <div class="project-lst-text">
+                  <h1>timer</h1>
+                  <span></span>
+                  <p>#html #css #javascript</p>
+                </div>
+              </div>
+              <div class="card-back">
+                <div class="gifbox">
+                  <img class="gif" src="./img/timer.gif" alt="gif">
+                </div>
+                <div class="project-lst-text2">
+                  <h1>timer</h1>
+                  <div class="sub-link-icon">
+                    <a href="https://www.notion.so/1a17268828ce80b3a864ed0806d90fb7" target="_blank"><img src="./img/notionicon.svg" alt="icon"></a>
+                    <a href="https://github.com/SeongUkJang/code-reboot/tree/%ED%83%80%EC%9D%B4%EB%A8%B8" target="_blank"><img src="./img/githubicon.svg" alt="icon"></a>
+                  </div>
+                  <div class="sub-tag-box">
+                    <span class="tag">html</span>
+                    <span class="tag">css</span>
+                    <span class="tag">jss</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </section>
+    <section id="s5">
+      <div class="rel">
+        <div class="tit-wrap">
+          <div class="contect_main">
+            <span>{</span><h1>contact</h1><span>}</span>
+          </div>
+          <div class="contect_sub">
+            <h1>Thanks for watching</h1>
+            <p>맡은 바 최선을 다해 성실히 임하겠습니다.</p>
+          </div>
+          <div class="contect_info">
+            <a href="tel:01072049321">
+              <p>010 7204 9321</p>
+            </a>
+            <a href="mailto:seonguk94@gmail.com">
+              <p>seonguk94@gmail.com</p>
+            </a>
+          </div>
+          <div class="contect_copy">
+            Copyright 2025. Seong-Uk Jang All rights reserved.
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollToPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/scroll.js"></script>
+  <!-- <script src="./js/wheel.js"></script> -->
+</body>
+
+</html>
