@@ -251,6 +251,33 @@
         width: 100%;
         height: auto;
     } 
+    .project-lst li {
+        width: 95%;
+        height: 30rem;
+    }
+    
+    #s4 .project-lst-text2 {
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: unset;
+        gap: 1rem;
+    }
+    #s4 .project-lst-text2 h1 {
+        width: 100%;
+    }
+    .gifbox {
+        width: calc(65%);
+        height: 23rem;
+    }
+    #s4 .subicon-wrap {
+        width: calc(25%);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 2rem;
+        gap: 3rem;
+    }
+
 }
 @media screen and (max-width:750px) {
     #s2 .interview-txt {
@@ -281,19 +308,7 @@
     .intro {
         scale: 0.7
     }
-    .project-lst li {
-        width: 95%;
-        height: 25rem;
-    }
-    .gifbox {
-        width: 20rem;
-        height: 15rem;
-    }
 
-    .work-project a img {
-        width: 100%;
-        height: auto;
-    }
     #s4 {
         padding-top: 15rem;
     }
@@ -450,6 +465,39 @@
         font-size: 3.3rem;
         letter-spacing: 1rem;
     }
+    .card-back {
+        padding: 1rem;
+    }
+    .project-lst-text h1 {
+        font-size: 1.8rem;
+    }
+    .project-lst-text p {
+        font-size: 1.3rem;
+    }
+    #s4 .project-lst-text2 h1 {
+        font-size: 1.8rem;
+        width: 100%;
+    }
+    .project-lst li {
+        height: 17rem;
+    }
+    #s4 .subicon-wrap {
+        width: calc(25%);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 2rem;
+        gap: 3rem;
+    }
+    #s4 .project-lst-text2 .sub-tag-box span {
+        width: 2.7rem;
+        height: 2.7rem;
+        font-size: .8rem;
+    }
+    .gifbox {
+        width: calc(60%);
+        height: 12rem;
+    }
 }
 
 @media screen and (max-width:400px) {
@@ -471,45 +519,6 @@
     }
     #s2 .interview-content .content span {
         font-size: 1.5rem;
-    }
-    .card-back {
-        padding: 1rem;
-    }
-    #s4 .project-lst-text2 {
-        text-align: center;
-        flex-wrap: wrap;
-        flex-direction: unset;
-        gap: 1rem;
-    }
-    .project-lst-text h1 {
-        font-size: 1.8rem;
-    }
-    .project-lst-text p {
-        font-size: 1.3rem;
-    }
-    #s4 .project-lst-text2 h1 {
-        font-size: 1.8rem;
-        width: 100%;
-    }
-    .project-lst li {
-        height: 17rem;
-    }
-    .gifbox {
-        width: calc(70% - 2rem);
-        height: 11rem;
-    }
-    #s4 .subicon-wrap {
-        width: calc(25%);
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-left: 1rem;
-        gap: .5rem;
-    }
-    #s4 .project-lst-text2 .sub-tag-box span {
-        width: 2.7rem;
-        height: 2.7rem;
-        font-size: .8rem;
     }
 
 }
