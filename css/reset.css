@@ -96,6 +96,7 @@ section {
     height: 100%;
     position: relative;
     max-width: 170rem;
+    padding: 4rem;
 }
 .tit-wrap {
     color: #3b3b3b;
