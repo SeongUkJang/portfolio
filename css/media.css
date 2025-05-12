@@ -474,10 +474,10 @@
         letter-spacing: -.2rem;
     }
     #s2 .interview-content li .con-tit {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     #s2 .interview-content li.act .con-tit {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     #s2 .interview-content .content span {
         font-size: 1.8rem;
@@ -542,7 +542,18 @@
         height: 12rem;
     }
 }
+@media screen and (max-width:450px) {
+    #s2 .interview-title {
+        font-size: 2.4rem;
+    }
+        #s2 .interview-content li .con-tit {
+        font-size: 1.4rem;
+    }
+    #s2 .interview-content li.act .con-tit {
+        font-size: 1.4rem;
+    }
 
+}
 @media screen and (max-width:400px) {
     .intro {
         scale: 0.4;
@@ -555,7 +566,7 @@
         font-size: 7rem;
     }
     #s2 .interview-title {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
     #s2 .interview-content .content span {
         font-size: 1.5rem;
