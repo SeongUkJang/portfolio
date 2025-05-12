@@ -469,8 +469,9 @@
         font-size: 7.5rem;
     }
     #s2 .interview-title {
-        font-size: 2.8rem;
+        font-size: 2.6rem;
         margin-top: 10rem;
+        letter-spacing: -.2rem;
     }
     #s2 .interview-content li .con-tit {
         font-size: 1.4rem;
@@ -558,8 +559,5 @@
     }
     #s2 .interview-content .content span {
         font-size: 1.5rem;
-    }
-    #s2 .interview-title p {
-        letter-spacing: 0;
     }
 }
